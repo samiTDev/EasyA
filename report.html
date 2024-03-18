@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Report</title>
+   <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+   <div id="report-card"></div>
+   <script src="code.js"></script>
+   <script>
+      // Parse query string parameters
+     
+
+      // Generate report table
+      var table = '<table id="report-card-table">';
+       table += ' <tr>';
+table += '<th class="subject">subject</th>';
+table += ' <td class="subject"><b>math</b></td>';
+table += ' <td class="subject"><b>chemistry</b></td>';
+table += ' <td class="subject"><b>biology</b></td>';
+table += ' <td class="subject"><b>history</b></td>';
+table += ' <td class="subject"><b>geography</b></td>';
+table += ' <td class="subject"><b>physics</b></td>';
+table += ' <td class="subject"><b>english</b></td>';
+table += ' <td class="subject"><b>amharic</b></td>';
+table += ' <td class="subject"><b>affan oromo</b></td>';
+table += ' <td class="subject"><b>citizenship</b></td>';
+table += ' <td class="subject"><b>P.E</b></td>';
+table += ' <td class="subject"><b>economics</b></td>';
+table += ' <td class="subject"><b>I.T</b></td>';
+table += ' <td class="subject"><b>Total</b></td>';
+table += ' <td class="subject"><b>Average</b></td>';
+table += ' <td class="subject"><b>Grade</b></td>';
+table += '</tr>';
+table +='<tr>';
+table +='<th>100%</th>'
+table +='<td>'+ a +'</td>'
+table +='<td>'+ b+ '</td>'
+table +='<td>'+ c+ '</td>'
+table +='<td>'+ d +'</td>'
+table +='<td>'+ e +'</td>'
+table +='<td>'+ f +'</td>'
+table +='<td>'+ g +'</td>'
+table +='<td>'+ h +'</td>'
+table +='<td>'+ i +'</td>'
+table +='<td>'+ j +'</td>'
+table +='<td>'+ k +'</td>'
+table +='<td>'+ l +'</td>'
+table +='<td>'+ m +'</td>'
+table +='<td>'+ result +'</td>'
+table +='<td>'+ avg.toFixed(2) +'</td>'
+table +='<td>'+ grade+'</td>'
+table +='</tr>'
+table += '</table>';
+      // Fill in the table rows with the provided data
+      
+      document.getElementById('report-card').innerHTML = table;
+   </script>
+</body>
+</html>

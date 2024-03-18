@@ -1,0 +1,63 @@
+.container {
+     background-color: white;
+    }
+ 
+ /* Example style for the table */
+ #report-card-table {
+     width: 100%;
+     border-collapse: collapse;
+     background-color: rgb(158, 40, 40);
+     width: 800px;
+ }
+ #report-card-table th, #report-card-table td {
+     border: 3px solid  black;
+     padding: 5px;
+     
+     background-color: white;
+     text-align: left;
+    
+ }
+ #report-card-table th {
+     background-color: #f2f2f2;
+    
+ }
+ 
+ #report-card{
+   background-color: white;  
+ }
+ 
+ #report-card-table th.subject {
+writing-mode: vertical-rl;
+transform: rotate(-180deg);
+white-space: nowrap;
+ }
+
+ #report-card-table td.subject {
+    writing-mode: vertical-rl;
+transform: rotate(-180deg);
+white-space: nowrap;
+ }
+
+ #main{
+    width: 40%;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    margin: 40px  18px 0 150px;
+    justify-content: start;
+    align-items: start;
+ }
+ #main input{
+    height: 18px;
+    width: 100%;
+    margin-bottom: 9px;
+    font-size: 20px;
+
+ }
+ main label{
+    font-size: 23px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+
+ }
